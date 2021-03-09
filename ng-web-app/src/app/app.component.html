@@ -6,11 +6,17 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
+      
       <li class="nav-item active">
-
         <!-- for the routes/url must match in folwer/auth-routing.model.ts in auth/flower folder-->
         <a class="nav-link" [routerLink]="['/']" [routerLinkActive]="['is-active']" href="">Welcome <span class="sr-only">(current)</span></a>
       </li>
+
+      <li class="nav-item">
+        <!--registration-web-api must match the  name of  the path in auth-routing.model.ts  in auth folder-->
+        <a class="nav-link" [routerLink]="['/about']" [routerLinkActive]="['is-active']" href="#">About</a>
+      </li>
+
       <li class="nav-item">
         <a class="nav-link" [routerLink]="['/skill']" [routerLinkActive]="['is-active']" href="#">Skills</a>
       </li>
@@ -23,10 +29,7 @@
         <a class="nav-link" [routerLink]="['/login']" [routerLinkActive]="['is-active']" href="#">Login</a>
       </li>
 
-      <li class="nav-item">
-        <!--registration-web-api must match the  name of  the path in auth-routing.model.ts  in auth folder-->
-        <a class="nav-link" [routerLink]="['/auth/user-profile']" [routerLinkActive]="['is-active']" href="#">Profiles</a>
-      </li>
+
 
     </ul>
     <!-- Search form -->

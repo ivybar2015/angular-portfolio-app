@@ -12,14 +12,21 @@ import { HomeComponent } from './components/home/home.component';
 import { SkillComponent } from './components/skill/skill.component';
 import { RegistrationComponent } from './components/auth/registration/registration.component';
 import { LoginComponent } from './components/auth/login/login.component';
+import { ChartComponent } from './charts/chart/chart.component';
+import { AnimationComponent } from './charts/animation/animation.component';
+import { AboutComponent } from './components/about/about.component';
 
+// to impourt sdeclare a// class name of file .component.ts
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     SkillComponent,
     RegistrationComponent,
-    LoginComponent
+    LoginComponent,
+    ChartComponent,
+    AnimationComponent,
+    AboutComponent
   ],
   imports: [
     CommonModule,
