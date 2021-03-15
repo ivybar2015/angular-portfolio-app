@@ -8,13 +8,13 @@ import { CommonModule } from '@angular/common';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './components/home/home.component';
-import { SkillComponent } from './components/skill/skill.component';
+import { HomeComponent } from './components/myportfilio/home/home.component';
+import { SkillComponent } from './components/myportfilio/skill/skill.component';
 import { RegistrationComponent } from './components/auth/registration/registration.component';
 import { LoginComponent } from './components/auth/login/login.component';
 import { ChartComponent } from './charts/chart/chart.component';
 import { AnimationComponent } from './charts/animation/animation.component';
-import { AboutComponent } from './components/about/about.component';
+import { AboutComponent } from './components/myportfilio/about/about.component';
 
 // to impourt sdeclare a// class name of file .component.ts
 @NgModule({
