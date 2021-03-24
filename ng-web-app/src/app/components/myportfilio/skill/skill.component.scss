@@ -1,24 +1,23 @@
 
 .container{
-    max-width: 50%;
-    margin: 60px;
+    max-width: 70%;
+    margin: 40px;
+    max-height:80%;
+  
    
   }
-  .text{
-    margin-left: 10px;
-    font-size: medium;
-    line-height: 1.5em;
-    text-align: center;
-
-  }
- 
   .box1{
     display: block;
+    font-size: small;
     // put element to left to eachother
     float: left;
-    width: 30.0%;
-    border: 2px  black solid;
-    margin: 10px;
+    width: 25.0%;
+    border: 1px  black solid;
     padding: 5px;
+    margin:  4px;
+    line-height: 1.5em;
+    text-align: center;
+    box-sizing: border-box;
+
 
   }
