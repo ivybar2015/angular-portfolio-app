@@ -13,7 +13,7 @@ const routes: Routes = [
   // to get the path for url
   // HomeComponent is class name of home.component.ts file
   {  path: '', component: HomeComponent },
-  {  path: 'history', component: SkillComponent },
+  {  path: 'skill', component: SkillComponent },
   {  path: 'about', component: AboutComponent },
   {  path: 'resgistration', component: RegistrationComponent },
   {  path: 'login', component: LoginComponent },
