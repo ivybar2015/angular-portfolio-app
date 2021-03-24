@@ -15,6 +15,10 @@ import { LoginComponent } from './components/auth/login/login.component';
 import { ChartComponent } from './charts/chart/chart.component';
 import { AnimationComponent } from './charts/animation/animation.component';
 import { AboutComponent } from './components/myportfilio/about/about.component';
+import { BarChartComponent } from './components/charts/bar-chart/bar-chart.component';
+import { PieChartComponent } from './components/charts/pie-chart/pie-chart.component';
+import { GoogleChartsModule } from 'angular-google-charts';
+
 
 // to impourt sdeclare a// class name of file .component.ts
 @NgModule({
@@ -26,7 +30,11 @@ import { AboutComponent } from './components/myportfilio/about/about.component';
     LoginComponent,
     ChartComponent,
     AnimationComponent,
-    AboutComponent
+    AboutComponent,
+    BarChartComponent,
+    PieChartComponent
+    
+    
   ],
   imports: [
     CommonModule,
@@ -36,7 +44,8 @@ import { AboutComponent } from './components/myportfilio/about/about.component';
     ReactiveFormsModule,
     HttpClientModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    GoogleChartsModule
 
   ],
   providers: [],

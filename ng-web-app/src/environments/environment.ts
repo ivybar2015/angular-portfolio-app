@@ -4,6 +4,8 @@
 
 export const environment = {
   production: false
+  //  get data from url
+ // CDCBaseURL: '  https://data.cdc.gov'
 };
 
 /*

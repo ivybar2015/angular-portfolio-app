@@ -5,6 +5,8 @@ import { SkillComponent } from './components/myportfilio/skill/skill.component';
 import { RegistrationComponent } from './components/auth/registration/registration.component';
 import { LoginComponent } from './components/auth/login/login.component';
 import { AboutComponent } from './components/myportfilio/about/about.component';
+import { BarChartComponent } from './components/charts/bar-chart/bar-chart.component';
+
 
 
 const routes: Routes = [
@@ -15,6 +17,7 @@ const routes: Routes = [
   {  path: 'about', component: AboutComponent },
   {  path: 'resgistration', component: RegistrationComponent },
   {  path: 'login', component: LoginComponent },
+  {  path: 'barchart', component: BarChartComponent },
  
 ];
 
